@@ -12,14 +12,14 @@
             <div class="caixa">
          		<h1><img src="https://live.staticflickr.com/65535/52124426763_0314d634c0_m.jpg"></h1>
      
-             <nav> 
-             <ul>
-             <li><a href="index.html">Home</a></li>
-             <li><a href="produtos.html">Produtos</a></li>
-             <li><a href="contatos.html">Contatos</a></li>
-             </ul>
-             </nav>
-         </div> 
+                <nav> 
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div> 
      	</header>
 
         <main>
@@ -30,8 +30,26 @@
                 <label for="Email">Email</label>
                 <input type="text" id="Email">
 
-                 <label for="Telefone">Telefone</label>
+                <label for="Telefone">Telefone</label>
                 <input type="text" id="Telefone">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea colso="70" rows="10" id="mensagem"></textarea>
+
+            <div></div>
+                <p>como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+
+                <label for="radio-whatsapp">Whatsapp</label><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+
+            </div>
+
+             <label><input type="checkbox">Gostaria de receber nossas novidades por email</label>
+
+                <input type="submit" value="enviar formulario">
             </form>
         </main>
 
