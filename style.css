@@ -1,9 +1,9 @@
 body {
-	font-family: 'Montserrat', sans-serif;	
+	font-family: 'Montserrat', sans-serif;
 }
 
 header{
-	
+
 	background: #BBBBBB;
 	padding: 20px 0;
 }
@@ -95,7 +95,7 @@ footer {
 }
 
 main {
-   
+
 }
 
 form {
@@ -226,6 +226,10 @@ td,th {
 	font-weight: bold;
 }
 
+.itens:before {
+    content: "★";
+}
+
 .imagembeneficios {
 	width: 60%;
 }
@@ -239,4 +243,8 @@ td,th {
 .video {
 	width: 560px;
 	margin: 2em auto;
+}
+
+main > o{
+	background: red;
 }
